@@ -5,7 +5,7 @@ let counterNum = 0;
 function changeCounter() {
   console.log("hello");
   counterNum += 1;
-  counter.textContent = counterNum;
+  counter.textContent = "Counter:" + counterNum;
 }
 
 button.addEventListener("click", changeCounter);
