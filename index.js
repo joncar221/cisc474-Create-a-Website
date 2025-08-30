@@ -6,6 +6,7 @@ function changeCounter() {
   console.log("hello");
   counterNum += 1;
   counter.textContent = "Counter: " + counterNum;
+  
 }
 
 button.addEventListener("click", changeCounter);
